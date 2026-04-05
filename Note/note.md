@@ -8,5 +8,5 @@ $$ y = b + wx\_{1} $$
 - $$b:bias$$
 - $$w:weight$$
 
-label在ML(machine learning)中為正確的數值
+label在ML(machine learning)中為正確的數值  
 $$ Loss: \cfrac{1} N\sum_{n} e_{n} $$
