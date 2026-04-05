@@ -4,7 +4,7 @@ How good a set of values is. The smaller, the better.
 
 Define:
 
-$L(b, w)$
+$$L(b, w)$$
 
 $y = b + wx_1$
 
