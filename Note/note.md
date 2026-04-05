@@ -9,4 +9,4 @@ $$ y = b + wx\_{1} $$
 - $$w:weight$$
 
 label在ML(machine learning)中為正確的數值
-$$ Loss: \cfrac{1} N\sum*{n} e*{n} $$
+$$ Loss: \cfrac{1} N\sum_{n} e_{n} $$
