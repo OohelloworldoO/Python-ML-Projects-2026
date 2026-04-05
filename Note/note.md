@@ -31,15 +31,15 @@ $$
 - optimization比較難  
 
 ### **平方誤差MSE(Mean square error)**  
-$
+$$
 MSE = \cfrac{1}{n} \sum_{i=1}^{n} (y_{i} - \hat{y}_{i})^2
-$  
+$$ 
 缺點:在單位上較難 or 無法解釋數據，且平方放大誤差
 
 ### **RMSE(Root Mean square error)**
-$
+$$
 RMSE =\sqrt{\cfrac{1}{n} \sum_{i=1}^{n}(y_{i} - \hat{y}_{i})^2}
-$
+$$
 
 If 
 $y$
