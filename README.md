@@ -1,5 +1,16 @@
 # Python-ML-Projects-2026
 
+## Project Overview
+
+This repository contains my learning journey in machine learning,
+including course implementations, experiments, and future projects.
+
+Focus:
+
+- Understanding ML fundamentals
+- Implementing models from scratch
+- Building end-to-end ML pipelines
+
 ## 進度
 
 |   日期   | 進度                                                          |
