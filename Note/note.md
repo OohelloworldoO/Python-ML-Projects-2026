@@ -32,7 +32,7 @@ $$
 ### **絕對值誤差MSE(Mean square error)**  
 $$
 e_{1} = \cfrac{1}{N} \sum_{i=1}^{n}(y_{1} - \hat{y}_{1})^2
-$$
+$$  
 缺點:在單位上較難 or 無法解釋數據
 
 ### **RMSE(Root Mean square error)**
