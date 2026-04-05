@@ -23,7 +23,7 @@
 | 2. 深度學習之應用 NTU CSIE ADL    |                           |
 | 3. 生成式AI時代下的機器學習(2025) |                           |
 | 4. kaggle                         |                           |
-| 5.Bert                            |                           |
+| 5.BERT                            |                           |
 
 ## Machine Learning Project(NTU)
 
