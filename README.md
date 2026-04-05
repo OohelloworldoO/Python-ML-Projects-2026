@@ -14,16 +14,18 @@
 |    李宏毅 Hung-yi Lee    | [生成式AI時代下的機器學習(2025)](https://www.youtube.com/playlist?list=PLJV_el3uVTsNZEFAdQsDeOdzAaHTca2Gi)    |
 |    李宏毅 Hung-yi Lee    | [機器學習2022](https://www.youtube.com/playlist?list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8)                      |
 |                          | [The official way to add a CC license to a GitHub Repository](https://haku.dev/post/github-choose-cc-license) |
+|    李宏毅 Hung-yi Lee    | [機器學習2021](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)                      |
 
 ## ToDoList
 
 | ToDoList                          | Starting and Ending Dates |
 | :-------------------------------- | :-----------------------: |
-| 1. 機器學習2022                   |                           |
-| 2. 深度學習之應用 NTU CSIE ADL    |                           |
-| 3. 生成式AI時代下的機器學習(2025) |                           |
-| 4. kaggle                         |                           |
-| 5.BERT                            |                           |
+| 1. 機器學習2021                   |        2026/4/5 -         |
+| 2. 機器學習2022                   |                           |
+| 3. 深度學習之應用 NTU CSIE ADL    |                           |
+| 4. 生成式AI時代下的機器學習(2025) |                           |
+| 5. kaggle                         |                           |
+| 6.BERT                            |                           |
 
 ## Machine Learning Project(NTU)
 
