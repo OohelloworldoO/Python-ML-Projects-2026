@@ -4,7 +4,7 @@ How good a set of values is. The smaller, the better.
 
 Define:
 
-$$L(b, w)$$
+$L(b, w)$
 
 $y_{i} = b + wx_i$
 
@@ -23,7 +23,7 @@ $$
 e有兩種方法:  
 ### **均方誤差MAE(Mean absolute error)**  
 $$
-e_{1} = |y_{1} - \hat{y}_{1}|
+e_{i} = |y_{i} - \hat{y}_{i}|
 $$
 
 缺點:  
@@ -32,14 +32,20 @@ $$
 
 ### **平方誤差MSE(Mean square error)**  
 $$
-MSE = \cfrac{1}{n} \sum_{i=1}^{n} (y_{i} - \hat{y}_{i})^2
+MSE = \cfrac{1}{n} \sum_{i=1}^{n} e_i
 $$   
+$$
+e_{i} = (y_{i} - \hat{y}_{i})^2
+$$  
 
 缺點:在單位上較難 or 無法解釋數據，且平方放大誤差
 
 ### **RMSE(Root Mean square error)**  
 $$
-RMSE =\sqrt{\cfrac{1}{n} \sum_{i=1}^{n}(y_{i} - \hat{y}_{i})^2}
+RMSE =\sqrt{\cfrac{1}{n} \sum_{i=1}^{n}e_i}
+$$  
+$$
+e_{i} = (y_{i} - \hat{y}_{i})^2
 $$  
 
 If d
