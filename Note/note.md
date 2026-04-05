@@ -2,7 +2,7 @@
 
 how good a set of values is. The smaller the better.  
 Define:  
-$ L(b, w) $
+$ L(b, w) $  
 $ y = b + wx_{1} $
 
 - $b:bias$
