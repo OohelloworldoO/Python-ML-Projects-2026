@@ -18,3 +18,4 @@ Loss is defined as:
 $$
 L = \frac{1}{N}\sum_{n=1}^{N} e_n
 $$
+![loss function](<./images/Define Loss.png>)
