@@ -29,7 +29,7 @@ $$
 缺點:  
 當兩筆資料的誤差為一正一負，相加為零，此時會出現 `loss = 0` 的問題  
 
-### **絕對值誤差MSE(Mean square error)**
+### **絕對值誤差MSE(Mean square error)**  
 $$
 e_{1} = \cfrac{1}{N} \sum_{i=1}^{n}(y_{1} - \hat{y}_{1})^2
 $$
@@ -42,4 +42,6 @@ $$
 
 If y and 
 $ \hat{y} $
-are both probability distributions => Cross-entropy
+are both probability distributions => **Cross-entropy**  
+
+# Optimization
