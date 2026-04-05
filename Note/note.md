@@ -53,5 +53,10 @@ $y$
  and 
 $\hat{y}$
 are both probability distributions => **Cross-entropy**  
-
+分類問題經常使用**Cross-entropy**  
 # Optimization
+
+Grandient Descent  
+ ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
+
+
