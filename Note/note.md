@@ -68,6 +68,6 @@ are both probability distributions => **Cross-entropy**
 
 Grandient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
-會有 local minimum, global minimum 的問題(假議題 之後再更新為何為假議題） 
-partial的定義
-$$
+會有 local minimum, global minimum 的問題(假議題 之後再更新為何為假議題）  
+partial的定義.   
+$\frac{\partial{f}}{\partial{y}}$  
