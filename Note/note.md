@@ -67,4 +67,5 @@ are both probability distributions => **Cross-entropy**
 # Optimization
 
 Grandient Descent  
- ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
+ ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
+會有 local minimum, global minimum 的問題  
