@@ -70,5 +70,5 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題(假議題 之後再更新為何為假議題）  
 partial的定義     
-$\frac{\partial{f}}{\partial{b}}$  
-$\frac{\partial{f}}{\partial{w}}$  
+$\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$   
+$\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$  
