@@ -107,37 +107,25 @@ $$Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
 Piecewise Linear Curve $y_{i} = b + \sum_{i} c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
 也可以表達為 $y_{i} = b + \sum_{i} c_{i} Sigmoid(b_{i} + w_{i}x_1)(b_{j} + \sum w_{ij}x_{j})$  
 
-`每個i代表不同的Sigmoid Functions，每個j為不同的狀況、features`
+每個i代表不同的Sigmoid Functions，每個j為不同的狀況、features
 
 $r_{1} = b_{1} + w_{11}x_{1} + w_{12}x_{2} + w_{13}x_{3}$  
 $r_{2} = b_{2} + w_{21}x_{1} + w_{22}x_{2} + w_{23}x_{3}$  
 $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$  
 
-`可以簡化為 matrix 跟 vector 的表達式`   
+可以簡化為 matrix 跟 vector 的表達式       
 
-$$
-\begin{pmatrix}
-r_1\\
-r_2\\
-r_3
-\end{pmatrix}
-=
-\begin{pmatrix}
-b_1\\
-b_2\\
-b_3
-\end{pmatrix}
-+
-\begin{pmatrix}
-w_{11} & w_{12} & w_{13}\\
-w_{21} & w_{22} & w_{23}\\
-w_{31} & w_{32} & w_{33}
-\end{pmatrix}
-\begin{pmatrix}
-x_1\\
-x_2\\
-x_3
-\end{pmatrix}$$
+$\begin{pmatrix}
+r1\\
+r2\\
+r3\\
+\end{pmatrix}$ =
+$\begin{pmatrix}
+r1\\
+r2\\
+r3\\
+\end{pmatrix}$
+
 
 $$
 r = b + w +x
