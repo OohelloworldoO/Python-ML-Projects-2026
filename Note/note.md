@@ -70,15 +70,8 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義  
-對$b$ 做partial
-
-$$
-\left.\frac{\partial f}{\partial b}\right|\_{w = w^0,\; b = b^0}
-
-
-$$
-
-對$w$ 做partial $\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
+對$ b $ 做partial $\frac{\partial{f}}{\partial{b}}|_{w=w^0, b=b^0}$  
+對$ w $ 做partial $\frac{\partial{f}}{\partial{w}}|_{w=w^0, b=b^0}$
 
 ## Piecewise Linear Curves
 
@@ -89,16 +82,16 @@ $$
 
 ## Activation Function
 
-Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成
+Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
 ![式子](./images/式子.png)
 
 其中 $Wx$ 的矩陣是常見的 Linear operation 不過
-$Wx + b$ 嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)
+$Wx + b$ 嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
 activation function 會提供 NN 模型非線性的特性
 
 ![affine operation](./images/affine%20operation.png)
 
-所以建構 NN 所使用的 activation functions 通常是非線性的
+所以建構 NN 所使用的 activation functions 通常是非線性的  
 最重要的目的就是為模型加入非線性的特性 透過非線性的 activation functions 的推疊 模型可以捕捉到複雜的資料背後蘊含的規則
 
 ### 常見的 activation functions 類型:
@@ -127,8 +120,8 @@ Features:
 - 不會飽和（non-saturating）的特性可免於梯度消失（vanishing gradients）的問題，使得模型更容易收斂，是目前很常使用的 activation function
 - 如果輸入都是負的，將會全部被轉換為 0，使得梯度為 0，因此部分的 weights 和 biases 就無法被更新，進而可能使得 neurons 成為永遠不會 activated 的 dead neurons，這會讓訓練模型缺乏效率（Dying ReLU Problem）
 
-![Softmax](./images/Softmax%20function.png)
-![Softmax](./images/Softmax%20function%202.png)
+![Softmax](./images/Softmax%20function.png)  
+![Softmax](./images/Softmax%20function%202.png)  
 Features:
 
 - 將一個數值陣列轉換為總合為 1 的機率分布，適合做為多類別分類（multi-class classification）模型的輸出層
@@ -144,7 +137,7 @@ Features:
 
 # Machine Learning steps
 
-ML = Regression + Classification + Structured
+ML = Regression + Classification + Structured  
 Learning(create something with structure)
 
 ## Step 1. Function with unknown
@@ -157,31 +150,28 @@ y=b+wx
 
 ## Step 2. Define Loss from Training data
 
-Loss is afunction of parameters e.g. L(b,w)
-Loss: $L=\frac{1}{N}( Σ(e) ) e$ 為每筆資料的預設跟實際的誤差，N 為總資料數
-Loss 越大代表參數越差
-計算誤差的方式:
-$e=|y-y'|$ L is mean absolute error(MAE)
-$e=(y-y')^2$ L is mean square error(MSE)
-如果 y 為機率表示的話=>Cross-entropy
+Loss is afunction of parameters e.g. L(b,w)  
+ Loss: $L=\frac{1}{N}( Σ(e) ) e$ 為每筆資料的預設跟實際的誤差，N 為總資料數  
+ Loss 越大代表參數越差  
+ 計算誤差的方式:  
+ $e=|y-y'|$ L is mean absolute error(MAE)  
+ $e=(y-y')^2$ L is mean square error(MSE)  
+ 如果 y 為機率表示的話=>Cross-entropy
 
 ## Step 3. Optimization
 
-Grandient Descent
-![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
+Grandient Descent  
+ ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
 - (Randomly) Pick an initial value "w1"
 - Compute $\frac{L'}{w'}| w = w_{1}$ , Negative=> Increase Positive=>decrease w
 - Update w iteratively
 
-![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")
+![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
 ![Optimization](./images/Optimization.png "Optimization")
 
 ## Cross-entropy
 
-cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差範圍
-corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高
+cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差範圍  
+corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高  
 [何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
-
-$$
-$$
