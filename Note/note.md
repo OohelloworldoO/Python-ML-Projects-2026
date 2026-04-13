@@ -117,9 +117,26 @@ $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 
 $$
 \begin{pmatrix}
-r1\\
-r2\\
-r3
+r_1\\
+r_2\\
+r_3
+\end{pmatrix}
+=
+\begin{pmatrix}
+b_1\\
+b_2\\
+b_3
+\end{pmatrix}
++
+\begin{pmatrix}
+w_{11} & w_{12} & w_{13}\\
+w_{21} & w_{22} & w_{23}\\
+w_{31} & w_{32} & w_{33}
+\end{pmatrix}
+\begin{pmatrix}
+x_1\\
+x_2\\
+x_3
 \end{pmatrix}
 $$
 
