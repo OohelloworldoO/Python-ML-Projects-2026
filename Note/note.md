@@ -73,7 +73,7 @@ partial的定義:
 $$\frac{\partial{f}}{\partial{b}}|_{w=w^0, b=b^0}$$
 $$\frac{\partial{f}}{\partial{w}}|_{w=w^0, b=b^0}$$
 
-$$\frac{\partial f}{\partial w} $$
+$$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0} $$
 ## Piecewise Linear Curves
 
 _Piecewise linear curves = constant + sum set of activation functions_
@@ -102,7 +102,10 @@ activation function 會提供 NN 模型非線性的特性
 
 $$ Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
 
-Piecewise Linear Curve $ y_{i} = c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$ 也可以表達為 $ y_{i} = c_{i} \times Sigmoid(b_{i} + w_{i}x_1)$
+Piecewise Linear Curve 
+$ y_{i} = c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
+也可以表達為 
+$ y_{i} = c_{i} \times Sigmoid(b_{i} + w_{i}x_1)$  
 
 Features:
 
