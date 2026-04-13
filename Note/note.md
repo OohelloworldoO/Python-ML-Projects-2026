@@ -98,7 +98,7 @@ activation function 會提供 NN 模型非線性的特性
 
 ![Sigmoid](./images/Sigmoid%20Function.png)
 
-$$ y = c\frac{1}{1+ e^{b + wx_1}}$$
+$$ y = c\frac{1}{1+ e^{-(b + wx_1)}}$$
 
 Features:
 
