@@ -115,16 +115,16 @@ $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 
 可以簡化為 matrix 跟 vector 的表達式       
 
-$\begin{pmatrix}
+$\begin{vmatrix}
 r1\\
 r2\\
 r3\\
-\end{pmatrix}$ =
-$\begin{pmatrix}
+\end{vmatrix}$ =
+$\begin{vmatrix}
 r1\\
 r2\\
 r3\\
-\end{pmatrix}$
+\end{vmatrix}$
 
 
 $$
