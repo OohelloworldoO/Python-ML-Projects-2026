@@ -70,12 +70,13 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
-$\frac{\partial{f}}{\partial{b}}|_{w=w^0, b=b^0}$  
-$\frac{\partial{f}}{\partial{w}}|_{w=w^0, b=b^0}$
+$$\frac{\partial{f}}{\partial{b}}|_{w=w^0, b=b^0}$$
+$$\frac{\partial{f}}{\partial{w}}|_{w=w^0, b=b^0}$$
 
 ## Piecewise Linear Curves
 
-`Piecewise linear curves = constant + sum set of activation functions`
+_Piecewise linear curves = constant + sum set of activation functions_
+
 ![Linear Curves](<./images/Linear Curves.png>)
 
 可以用piecewise linear curves去逼近任何連續的曲線，而piecewise linear又可以用各種activation functions組合而成
@@ -98,7 +99,9 @@ activation function 會提供 NN 模型非線性的特性
 
 ![Sigmoid](./images/Sigmoid%20Function.png)
 
-$$ y = c\frac{1}{1+ e^{-(b + wx_1)}}$$
+$$ Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
+
+$ y = c\frac{1}{1+ e^{-(b + wx_1)}}$ 也可以表達為 $ y = c \times Sigmoid(b + wx_1)$
 
 Features:
 
