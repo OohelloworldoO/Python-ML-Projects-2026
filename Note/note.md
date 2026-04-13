@@ -71,10 +71,10 @@ Grandient Descent
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
 對 $w$ partial(把另一個未知數當作常數)  
-$$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0} $$
+$$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0}$$
 
 對 $b$ partial  
-$$\frac{\partial f}{\partial b}|_{w = w^0, b = b^0} $$
+$$\frac{\partial f}{\partial b}|_{w = w^0, b = b^0}$$
 ## Piecewise Linear Curves
 
 
