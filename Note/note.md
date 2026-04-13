@@ -70,10 +70,10 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
-對 $w$ partial(把另一個未知數當作常數)
+對 $w$ partial(把另一個未知數當作常數)  
 $$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0} $$
 
-對 $b$ partial
+對 $b$ partial  
 $$\frac{\partial f}{\partial b}|_{w = w^0, b = b^0} $$
 ## Piecewise Linear Curves
 
@@ -104,8 +104,8 @@ activation function 會提供 NN 模型非線性的特性
 
 $$ Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
 
-Piecewise Linear Curve $y_{i} = c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
-也可以表達為 $y_{i} = c_{i}\times Sigmoid(b_{i} + w_{i}x_1)$  
+Piecewise Linear Curve $y_{i} = b + \sum c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
+也可以表達為 $y_{i} = b + \sum c_{i}\times Sigmoid(b_{i} + w_{i}x_1)$  
 
 Features:
 
