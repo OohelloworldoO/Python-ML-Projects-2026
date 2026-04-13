@@ -119,8 +119,8 @@ $\begin{vmatrix}
 r1\\
 r2\\
 r3\\
-\end{vmatrix}$ =
-$\begin{vmatrix}
+\end{vmatrix} =
+\begin{vmatrix}
 r1\\
 r2\\
 r3\\
