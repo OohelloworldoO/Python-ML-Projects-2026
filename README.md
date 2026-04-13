@@ -13,9 +13,10 @@ Focus:
 
 ## 進度
 
-|   日期   | 進度                                                          |
-| :------: | :------------------------------------------------------------ |
-| 2026/4/5 | Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent) |
+|   日期    | 進度                                                          |
+| :-------: | :------------------------------------------------------------ |
+| 2026/4/5  | Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent) |
+| 2026/4/13 | activation function、machine learning steps                   |
 
 ## Reference
 

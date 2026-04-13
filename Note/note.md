@@ -85,7 +85,8 @@ $\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
 Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
 ![式子](./images/式子.png)
 
-其中 Wx 的矩陣是常見的 Linear operation 不過`Wx + b`嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
+其中 $Wx$ 的矩陣是常見的 Linear operation 不過
+$Wx + b$ 嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
 activation function 會提供 NN 模型非線性的特性
 
 ![affine operation](./images/affine%20operation.png)
@@ -101,7 +102,7 @@ Features:
 
 - 1.可微分且有平滑的 gradient
 - 2.輸出範圍為 0~1，輸入數值越大（正值）則輸出越接近 1，輸入數值越小（負值）則輸出越接近 0，因此適合做為機率預測模型的輸出層
-- 3.當輸入數值大於或小於一定的範圍時，sigmoid 的輸出差異不大，因此 gradient 極小，這會導致訓練模型時遭遇梯度消失（vanishing gradients）的問題。這樣的問題在深度模型會更明顯，因為變化極大的輸入經過多次的壓縮到很小的輸出範圍，gradient 更可能小到無法有效訓練模型
+- 3.當輸入數值大於或小於一定的範圍時，Sigmoid 的輸出差異不大，因此 Gradient 極小，這會導致訓練模型時遭遇梯度消失（vanishing gradients）的問題。這樣的問題在深度模型會更明顯，因為變化極大的輸入經過多次的壓縮到很小的輸出範圍，gradient 更可能小到無法有效訓練模型
 
 ![Tanh](./images/Tanh%20function.png)
 
@@ -150,11 +151,11 @@ y=b+wx
 ### Step 2. Define Loss from Training data
 
 Loss is afunction of parameters e.g. L(b,w)  
- Loss: L=1/N( Σ(e) ) e 為每筆資料的預設跟實際的誤差，N 為總資料數  
+ Loss: $L=\frac{1}{N}( Σ(e) ) e$ 為每筆資料的預設跟實際的誤差，N 為總資料數  
  Loss 越大代表參數越差  
  計算誤差的方式:  
- e=|y-y'| L is mean absolute error(MAE)  
- e=(y-y')^2 L is mean square error(MSE)  
+ $e=|y-y'|$ L is mean absolute error(MAE)  
+ $e=(y-y')^2$ L is mean square error(MSE)  
  如果 y 為機率表示的話=>Cross-entropy
 
 ### Step 3. Optimization
@@ -163,7 +164,7 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
 - (Randomly) Pick an initial value "w1"
-- Compute L'/w'| w=w1 , Negative=> Increase Positive=>decrease w
+- Compute $\frac{L'}{w'}| w=w_{1}$ , Negative=> Increase Positive=>decrease w
 - Update w iteratively
 
 ![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
