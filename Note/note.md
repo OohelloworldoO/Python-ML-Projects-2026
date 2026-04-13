@@ -68,10 +68,10 @@ are both probability distributions => **Cross-entropy**
 
 Grandient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
-會有 local minimum, global minimum 的問題(假議題 之後再更新為何為假議題）  
+會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義  
-$\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$  
-$\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
+對$b$ 做partial $\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$  
+對$b$ 做partial $\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
 
 ## Piecewise Linear Curves
 
@@ -135,12 +135,12 @@ Features:
 | 避免在非常多層的 network 的 hidden layers 使用 sigmoid 或 tanh，否則很可能遭遇梯度消失（vanishing gradients）的問題 | 多標籤分類（Multilabel classification）：Sigmoid，預測結果可能多於一個 labels，因此每個類別以 0 到 1 的機率個別表示該類別是 label 的機率，所有機率不須總和為 1 |
 | 聽說（？） swish 適合用於超過 40 層的 networks，有機會想試試看                                                      | 輸出數值的正負代表正向及負向意義：Tanh                                                                                                                         |
 
-## Machine Learning steps
+# Machine Learning steps
 
 ML = Regression + Classification + Structured  
 Learning(create something with structure)
 
-### Step 1. Function with unknown
+## Step 1. Function with unknown
 
 **_Model:_**
 
@@ -148,7 +148,7 @@ Learning(create something with structure)
 y=b+wx
 ```
 
-### Step 2. Define Loss from Training data
+## Step 2. Define Loss from Training data
 
 Loss is afunction of parameters e.g. L(b,w)  
  Loss: $L=\frac{1}{N}( Σ(e) ) e$ 為每筆資料的預設跟實際的誤差，N 為總資料數  
@@ -158,13 +158,13 @@ Loss is afunction of parameters e.g. L(b,w)
  $e=(y-y')^2$ L is mean square error(MSE)  
  如果 y 為機率表示的話=>Cross-entropy
 
-### Step 3. Optimization
+## Step 3. Optimization
 
 Grandient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
 - (Randomly) Pick an initial value "w1"
-- Compute $\frac{L'}{w'}| w=w_{1}$ , Negative=> Increase Positive=>decrease w
+- Compute $\frac{L'}{w'}| w = w_{1}$ , Negative=> Increase Positive=>decrease w
 - Update w iteratively
 
 ![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
