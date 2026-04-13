@@ -117,13 +117,13 @@ $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 
 $$
 \begin{bmatrix}
-r1\\
-r2\\
-r3
+r_{1}\\
+r_{2}\\
+r_{3}
 \end{bmatrix}=\begin{bmatrix}
-b1\\
-b2\\
-b3
+b_{1}\\
+b_{2}\\
+b_{3}
 \end{bmatrix}+\begin{bmatrix}
 w_{11} & w_{12} & w_{13}\\
 w_{21} & w_{22} & w_{23}\\
