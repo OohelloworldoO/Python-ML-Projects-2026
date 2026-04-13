@@ -72,8 +72,8 @@ Grandient Descent
 partial的定義  
 對$b$
 做partial
-$\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$  
-對$b$
+$\frac{\partial f}{\partial b}_{w=w^0, b=b^0}$  
+對$w$
 做partial
 $\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
 
