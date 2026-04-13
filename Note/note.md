@@ -119,12 +119,14 @@ $\begin{vmatrix}
 r1\\
 r2\\
 r3\\
-\end{vmatrix}$ = 
+\end{vmatrix}$
+=
 $\begin{vmatrix}
 b1\\
 b2\\
 b3\\
-\end{vmatrix}$ + 
+\end{vmatrix}$
++
 $\begin{vmatrix}
 w_{11} & w_{12} & w_{13}\\
 w_{21} & w_{22} & w_{23}\\
