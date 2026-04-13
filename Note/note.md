@@ -120,7 +120,11 @@ $$
 r1\\
 r2\\
 r3
-\end{pmatrix}+\begin{pmatrix}r2r2\\r2\\r2r2\end{pmatrix}
+\end{pmatrix}+\begin{pmatrix}
+b1\\
+b2\\
+b3
+\end{pmatrix}
 $$
 
 
