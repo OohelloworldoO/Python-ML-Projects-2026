@@ -137,8 +137,11 @@ w_{31} & w_{32} & w_{33}
 x_1\\
 x_2\\
 x_3
-\end{pmatrix}
+\end{pmatrix}$$
+
 $$
+r = b + w +x
+$$ 
 
 Features:
 
