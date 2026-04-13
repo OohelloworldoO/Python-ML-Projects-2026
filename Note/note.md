@@ -70,12 +70,8 @@ Grandient Descent
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義  
-對$b$
-做partial
-$\frac{\partial f}{\partial b}_{w=w^0, b=b^0}$  
-對$w$
-做partial
-$\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
+對$b$ 做partial $\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$  
+對$w$ 做partial $\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
 
 ## Piecewise Linear Curves
 
