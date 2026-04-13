@@ -69,6 +69,13 @@ are both probability distributions => **Cross-entropy**
 Grandient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題(假議題 之後再更新為何為假議題）  
-partial的定義     
-$\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$   
-$\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$   
+partial的定義  
+$\frac{\partial{f}}{\partial{b}}_{w=w^0, b=b^0}$  
+$\frac{\partial{f}}{\partial{w}}_{w=w^0, b=b^0}$
+
+## Piecewise Linear Curves
+
+`Piecewise linear curves = constant + sum set of activation functions`
+![Linear Curves](<./images/Linear Curves.png>)
+
+可以用piecewise linear curves去逼近任何連續的曲線，而piecewise linear又可以用各種activation functions組合而成
