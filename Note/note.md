@@ -116,15 +116,19 @@ $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 可以簡化為 matrix 跟 vector 的表達式       
 
 $$
-\begin{pmatrix}
+\begin{bmatrix}
 r1\\
 r2\\
 r3
-\end{pmatrix}+\begin{pmatrix}
+\end{bmatrix}=\begin{bmatrix}
 b1\\
 b2\\
 b3
-\end{pmatrix}
+\end{bmatrix}+\begin{bmatrix}
+w_{11} & w_{12} & w_{13}\\
+w_{21} & w_{22} & w_{23}\\
+w_{31} & w_{32} & w_{33}
+\end{bmatrix}
 $$
 
 
