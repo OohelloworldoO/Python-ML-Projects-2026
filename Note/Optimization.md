@@ -58,21 +58,15 @@ $$
 
 Compute gradient $g =\nabla L(\theta^0)$
 
-$$
-\theta^1 = \theta^0 - \eta g
-$$
+_update_ $\theta^1 = \theta^0 - \eta g$
 
 Compute gradient $g =\nabla L(\theta^1)$
 
-$$
-\theta^2 = \theta^1 - \eta g
-$$
+_update_ $\theta^2 = \theta^1 - \eta g$
 
 Compute gradient $g =\nabla L(\theta^2)$
 
-$$
-\theta^3 = \theta^2 - \eta g
-$$
+_update_ $\theta^3 = \theta^2 - \eta g$
 
 ## ⚡ TL;DR
 
