@@ -30,7 +30,7 @@ Focus:
 │ ├── Regression_Example.md  
 │ ├── Classification_Example.md  
 │  
-├── 4_Insights/ # 🔥最重要  
+├── 4_Insights/
 │ ├── Why_DL_fails_on_finance.md  
 │ ├── Model_Comparison.md
 
@@ -63,7 +63,7 @@ Focus:
 | 5. kaggle                         |                           |
 | 6. BERT                           |                           |
 
-## Machine Learning Project(NTU)
+## Machine Learning Project
 
 |                    |                                                                Topic                                                                 |                      platform                       |
 | :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
@@ -83,7 +83,7 @@ Focus:
 | Life-Long Learning |                                      [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
 |   Meta Learning    |                                      [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
 
-## Applied Deep Learning Project(NTU)
+## Applied Deep Learning Project
 
 |       Topic        |                                       Link                                        | Link |
 | :----------------: | :-------------------------------------------------------------------------------: | ---- |
