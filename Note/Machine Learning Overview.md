@@ -43,21 +43,21 @@ Define the function that maps input to output
 ### 2. Loss Function
 
 Measure how wrong the prediction is  
-👉 Details: [Loss_Function.md](./Note/Loss_Function.md)
+👉 Details: [Loss_Function.md](./Loss_Function.md)
 
 ---
 
 ### 3. Optimization
 
 Update parameters to minimize loss  
-👉 Details: [Optimization.md](./Note/Optimization.md)
+👉 Details: [Optimization.md](./Optimization.md)
 
 ---
 
 ### 4. Activation Function (Neural Networks)
 
 Introduce non-linearity into the model  
-👉 Details: [Activation_Function.md](./Note/Activation_Function.md)
+👉 Details: [Activation_Function.md](./Activation_Function.md)
 
 ---
 
