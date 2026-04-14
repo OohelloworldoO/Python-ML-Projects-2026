@@ -79,7 +79,7 @@ $$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0}$$
 對 $b$ partial  
 $$\frac{\partial f}{\partial b}|_{w = w^0, b = b^0}$$
 
-$
+$$
 Gradient = \begin{bmatrix}
 \frac{\partial L}{\partial \theta_1}\\
 \frac{\partial L}{\partial \theta_2}\\
@@ -90,9 +90,9 @@ Gradient = \begin{bmatrix}
 .
 \end{bmatrix}
 = g
-$
+$$
 
-$
+$$
 \theta = \begin{bmatrix}
 \theta_1|_{\theta = \theta_0}\\
 \theta_2|_{\theta = \theta_0}\\
@@ -102,33 +102,33 @@ $
 .\\
 .
 \end{bmatrix}
-$
+$$
 
-$
+$$
 g = \nabla L(\theta^0)
-$
+$$
 
-$
+$$
 \theta^1 = \theta^0 - \eta g 
-$
+$$
 
 ### Optimization of New Model
  - (Randomly) Pick initial values $\theta^0$  
 
  - Compute gradient $g =\nabla L(\theta^0)$    
-$
+$$
 \theta^1 = \theta^0 - \eta g   
-$  
+$$ 
 
  - Compute gradient $g =\nabla L(\theta^1)$    
-$
+$$
 \theta^2 = \theta^1 - \eta g 
-$  
+$$ 
 
  - Compute gradient  $g =\nabla L(\theta^2)$  
-$
+$$
 \theta^3 = \theta^2 - \eta g 
-$  
+$$ 
 
 
 ## Piecewise Linear Curves
