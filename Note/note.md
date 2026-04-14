@@ -117,17 +117,17 @@ $$
 
  - Compute gradient $g =\nabla L(\theta^0)$    
 $$
-\theta^1 = \theta^0 - \eta g   
+\theta^1 = \theta^0 - \eta g
 $$ 
 
  - Compute gradient $g =\nabla L(\theta^1)$    
 $$
-\theta^2 = \theta^1 - \eta g 
+\theta^2 = \theta^1 - \eta g
 $$ 
 
  - Compute gradient  $g =\nabla L(\theta^2)$  
 $$
-\theta^3 = \theta^2 - \eta g 
+\theta^3 = \theta^2 - \eta g
 $$ 
 
 
