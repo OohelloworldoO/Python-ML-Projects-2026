@@ -2,8 +2,16 @@
 
 _Gradient Descent_
 
-![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
-會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
+會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題
+Gradient Descent  
+ ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
+
+- (Randomly) Pick an initial value $w_1$
+- Compute $\frac{L'}{w'}| w = w_{1}$ , Negative => Increase Positive => decrease $w$
+- Update $w$ iteratively
+
+![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
+![Optimization](./images/Optimization.png "Optimization")
 partial的定義:  
 對 $w$ partial(把另一個未知數當作常數)  
 $$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0}$$

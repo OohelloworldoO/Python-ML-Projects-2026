@@ -1,11 +1,3 @@
-## Piecewise Linear Curves
-
-_Piecewise linear curves = constant + sum set of activation functions_
-
-![Linear Curves](<./images/Linear Curves.png>)
-
-可以用piecewise linear curves去逼近任何連續的曲線，而piecewise linear又可以用各種activation functions組合而成
-
 # Machine Learning steps
 
 Machine Learning tasks include:
@@ -31,13 +23,3 @@ Loss is a function of parameters e.g. $L(b,w)$
  如果 y 為機率表示的話=>Cross-entropy
 
 ## Step 3. Optimization
-
-Gradient Descent  
- ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
-
-- (Randomly) Pick an initial value $w_1$
-- Compute $\frac{L'}{w'}| w = w_{1}$ , Negative => Increase Positive => decrease $w$
-- Update $w$ iteratively
-
-![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
-![Optimization](./images/Optimization.png "Optimization")
