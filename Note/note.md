@@ -214,7 +214,7 @@ Features:
 
 ![Tanh](./images/Tanh%20function.png)
 
-Features:
+_Features:_
 
 - 可微分且有平滑的 gradient
 - 與 sigmoid 相似，但輸出範圍為 -1~1。由於輸出以 0 為中心，適合用在預測正向、中性與負向關係模型的輸出層。另外用於 hidden layers 時可以將輸入標準化（normalization）且以 0 為中心，據說（？）有助於後面的 layers 的學習

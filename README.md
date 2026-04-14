@@ -11,6 +11,29 @@ Focus:
 - Implementing models from scratch
 - Building end-to-end ML pipelines
 
+## 📦 ML-Foundations
+
+│  
+├── README.md  
+│  
+├── 1\_[Core_Concepts/](./Note/note.md)  
+│ ├── Loss_Function.md  
+│ ├── Optimization.md  
+│ ├── Activation_Function.md  
+│  
+├── 2_Modeling/  
+│ ├── Linear_Model.md  
+│ ├── Neural_Network.md  
+│ ├── Sequence_Model.md  
+│  
+├── 3_Practice/  
+│ ├── Regression_Example.md  
+│ ├── Classification_Example.md  
+│  
+├── 4_Insights/ # 🔥最重要  
+│ ├── Why_DL_fails_on_finance.md  
+│ ├── Model_Comparison.md
+
 ## 進度
 
 |   日期    |                             進度                              |
