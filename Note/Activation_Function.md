@@ -15,7 +15,7 @@
 
 - Combination of multiple neurons
 - $$y = b + \sum_i c_i \, \sigma(w_i^T x + b_i)$$
-- Neural Network 由多層的 hidden layer 組合而成，又稱為Deep Learning
+- Neural networks consist of multiple layers of neurons. When the network has many layers, it is referred to as Deep Learning.
 
 ## Level 4 — Function Approximation
 
@@ -42,7 +42,9 @@ activation function 會提供 NN 模型非線性的特性
 
 ## Piecewise Linear Curves
 
-_Piecewise linear curves = constant + sum set of ReLu activation functions_
+_ReLU-based neural networks produce piecewise linear functions._
+
+_By combining multiple ReLU units, the model can approximate complex functions._
 
 ![Linear Curves](<./images/Linear Curves.png>)
 
@@ -125,7 +127,8 @@ $$
 ReLU(x) = max(0, x)
 $$
 
-在Neural Network 中，足夠多的 ReLU units 可以逼近任意函數，包含 sigmoid:
+在Neural Network 中，足夠多的 ReLU units 可以逼近任意函數，包含 sigmoid  
+This is a consequence of the Universal Approximation Theorem:
 
 $$
 y = b + \sum_{i} c_{i} ReLU(b_{i}+ \sum_{j} w_{ij}x_{j})
@@ -166,4 +169,4 @@ Features:
 
 - Neural network 本質是透過 activation function 組合逼近複雜函數
 - $\sigma$ 代表 activation function ， 它是對線性輸出 $(b + Wx)$ 進行一個非線性變換的結果
-- Deep Learning = Many hidden layers =
+- Deep learning refers to stacking many layers, enabling hierarchical feature representation

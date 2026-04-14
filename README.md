@@ -41,7 +41,7 @@ Insights
 | :-------: | :-----------------------------------------------------------: |
 | 2026/4/5  | Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent) |
 | 2026/4/13 |     activation function(Sigmoid)、machine learning steps      |
-| 2026/4/14 |              activation functions、optimization               |
+| 2026/4/14 |    activation functions(Sigmoid、ReLU、tanh)、optimization    |
 
 ## Reference
 
