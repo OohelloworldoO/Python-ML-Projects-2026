@@ -73,3 +73,14 @@ Compute gradient $g =\nabla L(\theta^2)$
 $$
 \theta^3 = \theta^2 - \eta g
 $$
+
+## ⚡ TL;DR
+
+- Gradient descent 用來最小化 loss
+- 透過計算 gradient 更新參數
+- learning rate 決定更新幅度
+
+## 🔥 My Insight
+
+- learning rate 過大會震盪，過小會收斂慢
+- non-convex 問題常見，但實務上仍可找到好解

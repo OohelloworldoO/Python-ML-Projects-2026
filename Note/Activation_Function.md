@@ -106,3 +106,13 @@ Features:
 | 通常會選擇最常使用的 ReLU 開始嘗試，視是否達到預期成果再進行調整                                                    | 多類別分類（Muticlass classification）：Softmax                                                                                                                |
 | 避免在非常多層的 network 的 hidden layers 使用 sigmoid 或 tanh，否則很可能遭遇梯度消失（vanishing gradients）的問題 | 多標籤分類（Multilabel classification）：Sigmoid，預測結果可能多於一個 labels，因此每個類別以 0 到 1 的機率個別表示該類別是 label 的機率，所有機率不須總和為 1 |
 | 聽說（？） swish 適合用於超過 40 層的 networks，有機會想試試看                                                      | 輸出數值的正負代表正向及負向意義：Tanh                                                                                                                         |
+
+## ⚡ TL;DR
+
+- Activation function 提供非線性能力
+- ReLU 最常用（效率高）
+- Sigmoid / Tanh 容易梯度消失
+
+## 🔥 My Insight
+
+- Neural network 本質是透過 activation function 組合逼近複雜函數

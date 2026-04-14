@@ -13,26 +13,25 @@ Focus:
 
 ## 📦 ML-Foundations
 
-│  
-├── README.md  
-│  
-├── 1.[Machine Learning Overview/](./Note/Machine%20Learning%20Overview.md)  
-│ ├── [Loss_Function.md](./Note/Loss_Function.md)  
-│ ├── [Optimization.md](./Note/Optimization.md)  
-│ ├── [Activation_Function.md](./Note/Activation_Function.md)  
-│  
-├── 2.Modeling/  
-│ ├── Linear_Model.md  
-│ ├── Neural_Network.md  
-│ ├── Sequence_Model.md  
-│  
-├── 3_Practice/  
-│ ├── Regression_Example.md  
-│ ├── Classification_Example.md  
-│  
-├── 4_Insights/
-│ ├── Why_DL_fails_on_finance.md  
-│ ├── Model_Comparison.md
+- README.md
+
+- 1. [Machine Learning Overview](./Note/Machine%20Learning%20Overview.md)
+  - [Loss Function](./Note/Loss_Function.md)
+  - [Optimization](./Note/Optimization.md)
+  - [Activation Function](./Note/Activation_Function.md)
+
+- 2. Modeling
+  - Linear_Model.md
+  - Neural_Network.md
+  - Sequence_Model.md
+
+- 3. Practice
+  - Regression_Example.md
+  - Classification_Example.md
+
+- 4. Insights
+  - Why_DL_fails_on_finance.md
+  - Model_Comparison.md
 
 ## 進度
 

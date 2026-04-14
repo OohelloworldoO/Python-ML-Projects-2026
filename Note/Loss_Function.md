@@ -79,3 +79,15 @@ corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差
 | MAE           | robust to outliers     | regression     |
 | MSE           | penalizes large errors | regression     |
 | Cross-entropy | probability comparison | classification |
+
+## ⚡ TL;DR
+
+- MSE：會放大誤差，適合懲罰大錯誤
+- MAE：對 outlier 穩定，但不可微
+- Cross-entropy：分類問題最常用
+
+## 🔥 My Insight
+
+- MSE 對 noise 非常敏感，因此在 financial data 表現不一定好
+- MAE 雖然穩定，但 optimization 困難
+- loss function 的選擇會直接影響模型收斂與表現
