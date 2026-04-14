@@ -1,3 +1,15 @@
+- Level 1: Activation function  
+  ReLU / Sigmoid / Tanh
+
+* Level 2: Neuron  
+  σ(w·x + b)
+
+* Level 3: Neural Network  
+  Σ c_i σ(...)
+
+* Level 4: Function Approximation  
+  ≈ 任意函數
+
 # Activation Function
 
 Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
@@ -22,12 +34,14 @@ _Piecewise linear curves = constant + sum set of activation functions_
 
 ## 常見的 activation functions 類型:
 
+### _Sigmoid:_
+
 ![Sigmoid](./images/Sigmoid%20Function.png)
 
 $$Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
 
 Piecewise Linear Curve $y_{i} = b + \sum_{i} c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
-也可以表達為 $y_{i} = b + \sum_{i} c_{i} Sigmoid(b_{i} + w_{i}x_1)(b_{j} + \sum w_{ij}x_{j})$
+也可以表達為 $y_{i} = b + \sum_{i} c_{i} Sigmoid(b_{i} + \sum w_{ij}x_{j})$
 
 _每個i代表不同的Sigmoid Functions，每個j為不同的狀況、features_
 
@@ -76,6 +90,8 @@ Features:
 - 2.輸出範圍為 0~1，輸入數值越大（正值）則輸出越接近 1，輸入數值越小（負值）則輸出越接近 0，因此適合做為機率預測模型的輸出層
 - 3.當輸入數值大於或小於一定的範圍時，Sigmoid 的輸出差異不大，因此 Gradient 極小，這會導致訓練模型時遭遇梯度消失（vanishing gradients）的問題。這樣的問題在深度模型會更明顯，因為變化極大的輸入經過多次的壓縮到很小的輸出範圍，gradient 更可能小到無法有效訓練模型
 
+### _Tanh:_
+
 ![Tanh](./images/Tanh%20function.png)
 
 _Features:_
@@ -84,7 +100,24 @@ _Features:_
 - 與 sigmoid 相似，但輸出範圍為 -1~1。由於輸出以 0 為中心，適合用在預測正向、中性與負向關係模型的輸出層。另外用於 hidden layers 時可以將輸入標準化（normalization）且以 0 為中心，據說（？）有助於後面的 layers 的學習
 - 另一個與 sigmoid 相似的點是 tanh 也會遭遇梯度消失（vanishing gradients）的問題，儘管 tanh 的 gradient 已經比 sigmoid 的 gradient 更陡峭
 
+## _Rectified Linear Unit(ReLU):_
+
 ![ReLU](./images/ReLU%20function.png)
+ReLU(單一函數):
+
+$$
+ReLU(x) = max(0, x)
+$$
+
+在Neural Network 中，多個 ReLU neuron 可以逼近任意函數（包含 sigmoid）:
+
+$$
+ReLU = b + \sum_{2i} c_{i} max(0, b_{i}+ \sum_{j} w_{ij}x_{j})
+$$
+
+$$
+Sigmoid = b + \sum_{i} c_{i} Sigmoid(b_{i}+\sum w_{ij}x_{j})
+$$
 
 Features:
 

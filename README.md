@@ -63,6 +63,7 @@ Insights
 | 4. 生成式AI時代下的機器學習(2025) |                           |
 | 5. kaggle                         |                           |
 | 6. BERT                           |                           |
+| 7. LMM                            |                           |
 
 ## Machine Learning Project
 

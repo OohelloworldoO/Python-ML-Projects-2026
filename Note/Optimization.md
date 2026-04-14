@@ -56,17 +56,35 @@ $$
 
 (Randomly) Pick initial values $\theta^0$
 
-Compute gradient $g =\nabla L(\theta^0)$
+Compute gradient $g =\nabla L^1(\theta^0)$
 
 _update_ $\theta^1 = \theta^0 - \eta g$
 
-Compute gradient $g =\nabla L(\theta^1)$
+Compute gradient $g =\nabla L^2(\theta^1)$
 
 _update_ $\theta^2 = \theta^1 - \eta g$
 
-Compute gradient $g =\nabla L(\theta^2)$
+Compute gradient $g =\nabla L^3(\theta^2)$
 
 _update_ $\theta^3 = \theta^2 - \eta g$
+
+1 _epoch_ = see all the batches once
+
+$Example 1$
+
+- 10,000 examples(N = 10,000)
+- Batch size is 10(B = 10)  
+   _How many update in 1 epoch?_  
+   Ans: `1,000 update`
+
+$Example 2$
+
+- 1,000 examples(N = 1,000)
+- Batch size is 10(B = 100)  
+   _How many update in 1 epoch?_  
+   Ans: `10 update`
+
+因此 1 epoch 的訓練無法得知總共 update 幾次，取決於 Batch size
 
 ## ⚡ TL;DR
 
