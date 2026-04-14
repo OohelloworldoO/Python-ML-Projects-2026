@@ -16,12 +16,12 @@ Focus:
 │  
 ├── README.md  
 │  
-├── 1\_[Core_Concepts/](./Note/note.md)  
+├── 1.[Machine Learning Overview/](./Note/note.md)  
 │ ├── [Loss_Function.md](./Note/Loss_Function.md)  
 │ ├── [Optimization.md](./Note/Optimization.md)  
 │ ├── [Activation_Function.md](./Note/Activation_Function.md)  
 │  
-├── 2_Modeling/  
+├── 2.Modeling/  
 │ ├── Linear_Model.md  
 │ ├── Neural_Network.md  
 │ ├── Sequence_Model.md  
