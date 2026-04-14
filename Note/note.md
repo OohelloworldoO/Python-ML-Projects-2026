@@ -115,7 +115,7 @@ $r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 
 可以簡化為 matrix 跟 vector 的表達式       
 
-$$
+$
 \begin{bmatrix}
 r_{1}\\
 r_{2}\\
@@ -133,13 +133,22 @@ x_{1}\\
 x_{2}\\
 x_{3}
 \end{bmatrix}
-$$
+$
 
-
-$$
+$
 r = b + w +x
-$$ 
+$
 
+
+$
+a = \sigma(r)
+$
+
+$
+y = b + c^T a
+$
+
+![sigmoid](<./images/sigmoid.png>)
 Features:
 
 - 1.可微分且有平滑的 gradient
