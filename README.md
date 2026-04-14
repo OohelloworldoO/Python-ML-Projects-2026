@@ -13,25 +13,27 @@ Focus:
 
 ## 📦 ML-Foundations
 
-- README.md
+[Machine Learning Overview](./Note/Machine%20Learning%20Overview.md)
 
-- 1. [Machine Learning Overview](./Note/Machine%20Learning%20Overview.md)
-  - [Loss Function](./Note/Loss_Function.md)
-  - [Optimization](./Note/Optimization.md)
-  - [Activation Function](./Note/Activation_Function.md)
+- [Loss Function](./Note/Loss_Function.md)
+- [Optimization](./Note/Optimization.md)
+- [Activation Function](./Note/Activation_Function.md)
 
-- 2. Modeling
-  - Linear_Model.md
-  - Neural_Network.md
-  - Sequence_Model.md
+Modeling
 
-- 3. Practice
-  - Regression_Example.md
-  - Classification_Example.md
+- Linear_Model.md
+- Neural_Network.md
+- Sequence_Model.md
 
-- 4. Insights
-  - Why_DL_fails_on_finance.md
-  - Model_Comparison.md
+Practice
+
+- Regression_Example.md
+- Classification_Example.md
+
+Insights
+
+- Why_DL_fails_on_finance.md
+- Model_Comparison.md
 
 ## 進度
 
@@ -64,40 +66,40 @@ Focus:
 
 ## Machine Learning Project
 
-|                    |                                                                Topic                                                                 |                        Link                         |
-| :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
-|     Regression     |               [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/HW1/COVID-19%20Cases%20Prediction.ipynb>)               | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw1) |
-|   Classification   | [TIMIT framewise phoneme classification](<./Machine%20Learning(ML)/Homework/HW2/TIMIT%20framewise%20phoneme%20classification.ipynb>) | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw2) |
-|        CNN         |                                       [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|   Self-Attention   |                                       [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|    Transformer     |                                       [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|        GAN         |                                       [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|        BERT        |                                       [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-| Anomaly Detection  |                                       [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|   Explainable AI   |                                       [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|       Attack       |                                      [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|     Adaptation     |                                      [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|         RL         |                                      [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|    Compression     |                                      [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-| Life-Long Learning |                                      [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
-|   Meta Learning    |                                      [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
+|                    |                                                                Topic                                                                 |                           Link                           |
+| :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
+|     Regression     |               [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/HW1/COVID-19%20Cases%20Prediction.ipynb>)               | [Kaggle Link](https://www.kaggle.com/c/ml2021spring-hw1) |
+|   Classification   | [TIMIT framewise phoneme classification](<./Machine%20Learning(ML)/Homework/HW2/TIMIT%20framewise%20phoneme%20classification.ipynb>) | [Kaggle Link](https://www.kaggle.com/c/ml2021spring-hw2) |
+|        CNN         |                                        [3](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|   Self-Attention   |                                        [4](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|    Transformer     |                                        [5](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|        GAN         |                                        [6](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|        BERT        |                                        [7](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+| Anomaly Detection  |                                        [8](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|   Explainable AI   |                                        [9](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|       Attack       |                                       [10](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|     Adaptation     |                                       [11](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|         RL         |                                       [12](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|    Compression     |                                       [13](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+| Life-Long Learning |                                       [14](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|   Meta Learning    |                                       [15](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
 
 ## Applied Deep Learning Project
 
 |       Topic        |                                       Link                                        | Link |
 | :----------------: | :-------------------------------------------------------------------------------: | ---- |
 |     Regression     | [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/Regression.ipynb>) | Link |
-|   Classification   |           [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>)            | Link |
-|        CNN         |             [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|   Self-Attention   |             [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|    Transformer     |             [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|        GAN         |             [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|        BERT        |             [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-| Anomaly Detection  |             [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|   Explainable AI   |             [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
-|       Attack       |             [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
-|     Adaptation     |             [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
-|         RL         |             [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
-|    Compression     |             [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
-| Life-Long Learning |             [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
-|   Meta Learning    |             [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+|   Classification   |            [2](<./Machine%20Learning(ML)/Homework/Classification.py>)             | Link |
+|        CNN         |              [3](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|   Self-Attention   |              [4](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|    Transformer     |              [5](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|        GAN         |              [6](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|        BERT        |              [7](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+| Anomaly Detection  |              [8](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|   Explainable AI   |              [9](<./Machine%20Learning(ML)/Homework/Regression.py>)               | Link |
+|       Attack       |              [10](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|     Adaptation     |              [11](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|         RL         |              [12](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|    Compression     |              [13](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+| Life-Long Learning |              [14](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|   Meta Learning    |              [15](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
