@@ -70,7 +70,7 @@ are both probability distributions => **Cross-entropy**
 
 _Gradient Descent_
 
- ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
+![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
 對 $w$ partial(把另一個未知數當作常數)  
@@ -109,30 +109,32 @@ g = \nabla L(\theta^0)
 $$
 
 $$
-\theta^1 = \theta^0 - \eta g 
+\theta^1 = \theta^0 - \eta g
 $$
 
 ### Optimization of New Model
-(Randomly) Pick initial values $\theta^0$    
 
-Compute gradient $g =\nabla L(\theta^0)$      
+(Randomly) Pick initial values $\theta^0$
+
+Compute gradient $g =\nabla L(\theta^0)$
+
 $$
 \theta^1 = \theta^0 - \eta g
-$$   
+$$
 
-Compute gradient $g =\nabla L(\theta^1)$      
+Compute gradient $g =\nabla L(\theta^1)$
+
 $$
 \theta^2 = \theta^1 - \eta g
-$$   
+$$
 
-Compute gradient  $g =\nabla L(\theta^2)$    
+Compute gradient $g =\nabla L(\theta^2)$
+
 $$
 \theta^3 = \theta^2 - \eta g
-$$   
-
+$$
 
 ## Piecewise Linear Curves
-
 
 _Piecewise linear curves = constant + sum set of activation functions_
 
@@ -161,7 +163,7 @@ activation function 會提供 NN 模型非線性的特性
 $$Sigmoid(t) = \frac{1}{1+ e^{-t}}$$
 
 Piecewise Linear Curve $y_{i} = b + \sum_{i} c_{i}\frac{1}{1+ e^{-(b_{i} + w_{i}x_1)}}$
-也可以表達為 $y_{i} = b + \sum_{i} c_{i} Sigmoid(b_{i} + w_{i}x_1)(b_{j} + \sum w_{ij}x_{j})$  
+也可以表達為 $y_{i} = b + \sum_{i} c_{i} Sigmoid(b_{i} + w_{i}x_1)(b_{j} + \sum w_{ij}x_{j})$
 
 _每個i代表不同的Sigmoid Functions，每個j為不同的狀況、features_
 
@@ -169,8 +171,7 @@ _Function with unknown 可以簡化為 matrix 跟 vector 的表達式_
 
 $r_{1} = b_{1} + w_{11}x_{1} + w_{12}x_{2} + w_{13}x_{3}$  
 $r_{2} = b_{2} + w_{21}x_{1} + w_{22}x_{2} + w_{23}x_{3}$  
-$r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$  
-     
+$r_{3} = b_{3} + w_{31}x_{1} + w_{32}x_{2} + w_{33}x_{3}$
 
 $
 \begin{bmatrix}
@@ -204,7 +205,7 @@ $
 y = \hat{b} + c^T a
 $
 
-![sigmoid](<./images/sigmoid.png>)
+![sigmoid](./images/sigmoid.png)
 Features:
 
 - 1.可微分且有平滑的 gradient
@@ -245,6 +246,7 @@ Features:
 # Machine Learning steps
 
 Machine Learning tasks include:
+
 - Regression
 - Classification
 - Structured prediction (optional)
@@ -252,7 +254,6 @@ Machine Learning tasks include:
 ## Step 1. Function with unknown
 
 **_Model:_**
-
 
 $$y=b+wx$$
 
@@ -284,7 +285,7 @@ cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差
 corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高  
 [何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
 
-| Loss          | 特點                     | 適用             |
+| Loss          | 特點                   | 適用           |
 | ------------- | ---------------------- | -------------- |
 | MAE           | robust to outliers     | regression     |
 | MSE           | penalizes large errors | regression     |
