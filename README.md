@@ -41,7 +41,7 @@ Insights
 | :-------: | :-----------------------------------------------------------: |
 | 2026/4/5  | Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent) |
 | 2026/4/13 |     activation function(Sigmoid)、machine learning steps      |
-| 2026/4/14 |            sigmoid、optimization(gradient descent)            |
+| 2026/4/14 |              activation functions、optimization               |
 
 ## Reference
 
@@ -63,7 +63,7 @@ Insights
 | 4. 生成式AI時代下的機器學習(2025) |                           |
 | 5. kaggle                         |                           |
 | 6. BERT                           |                           |
-| 7. LMM                            |                           |
+| 7. LMMs                           |                           |
 
 ## Machine Learning Project
 
@@ -84,6 +84,7 @@ Insights
 |    Compression     |                                       [13](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
 | Life-Long Learning |                                       [14](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
 |   Meta Learning    |                                       [15](<./Machine%20Learning(ML)/Homework/Regression.py>)                                        |                           Link                           |
+|        LMMs        |                                                                                                                                      |
 
 ## Applied Deep Learning Project
 

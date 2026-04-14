@@ -1,22 +1,34 @@
-- Level 1: Activation function  
-  ReLU / Sigmoid / Tanh
+# Concept Hierarchy (from simple to powerful)
 
-* Level 2: Neuron  
-  σ(w·x + b)
+## Level 1 — Activation Function (Basic Unit)
 
-* Level 3: Neural Network  
-  Σ c_i σ(...)
+- ReLU / Sigmoid / Tanh
+- A simple non-linear function
 
-* Level 4: Function Approximation  
-  ≈ 任意函數
+## Level 2 — Neuron
+
+- Applies linear transformation + activation
+- $$a = \sigma(w^T x + b)$$
+
+## Level 3 — Neural Network
+
+- Combination of multiple neurons
+- $$y = b + \sum_i c_i \, \sigma(w_i^T x + b_i)$$
+
+## Level 4 — Function Approximation
+
+- Neural networks can approximate complex functions
+- With sufficient neurons, can approximate any continuous function
 
 # Activation Function
 
-Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
+Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成，而 $\sigma(x)$ 代表一個 function ， 是 activation function 的抽象符號，對 x 套用 activation function  
+它可以是 `sigmoid function` 、 `ReLU` 、 `tanh` 、 `GELU` ...
+
 ![式子](./images/式子.png)
 
 其中 $Wx$ 的矩陣是常見的 Linear operation 不過
-$Wx + b$ 嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
+$Wx + b$ 嚴格來說是稱為 affine operation (仿射運算 相對應線性空間)  
 activation function 會提供 NN 模型非線性的特性
 
 ![affine operation](./images/affine%20operation.png)
@@ -109,7 +121,7 @@ $$
 ReLU(x) = max(0, x)
 $$
 
-在Neural Network 中，多個 ReLU neuron 可以逼近任意函數（包含 sigmoid）:
+在Neural Network 中，足夠多的 ReLU units 可以逼近任意函數，包含 sigmoid:
 
 $$
 ReLU = b + \sum_{2i} c_{i} max(0, b_{i}+ \sum_{j} w_{ij}x_{j})
@@ -149,3 +161,4 @@ Features:
 ## 🔥 My Insight
 
 - Neural network 本質是透過 activation function 組合逼近複雜函數
+- $\sigma$ 代表 activation function ， 它是對線性輸出 $(b + Wx)$ 進行一個非線性變換的結果
