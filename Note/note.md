@@ -89,6 +89,7 @@ Gradient = \begin{bmatrix}
 .\\
 .
 \end{bmatrix}
+= g
 $$
 
 $$
@@ -104,8 +105,28 @@ $$
 $$
 
 $$
-Gradient = \nabla L(\theta^0)
+g = \nabla L(\theta^0)
 $$
+
+$$
+\theta^1 = \theta^0 - \eta g 
+$$
+
+### Optimization of New Model
+ - (Randomly) Pick initial values $\theta^0$
+ - Compute gradient $g =\nabla L(\theta^0)$  
+ $
+\theta^1 = \theta^0 - \eta g 
+$
+ - Compute gradient $g =\nabla L(\theta^1)$  
+$
+\theta^2 = \theta^1 - \eta g 
+$
+ - Compute gradient  $g =\nabla L(\theta^2)$  
+$
+\theta^3 = \theta^2 - \eta g 
+$
+
 
 ## Piecewise Linear Curves
 
@@ -247,9 +268,9 @@ Loss is a function of parameters e.g. $L(b,w)$
 Gradient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
-- (Randomly) Pick an initial value "w1"
-- Compute $\frac{L'}{w'}| w = w_{1}$ , Negative=> Increase Positive=>decrease w
-- Update w iteratively
+- (Randomly) Pick an initial value $w_1$
+- Compute $\frac{L'}{w'}| w = w_{1}$ , Negative => Increase Positive => decrease $w$
+- Update $w$ iteratively
 
 ![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
 ![Optimization](./images/Optimization.png "Optimization")
