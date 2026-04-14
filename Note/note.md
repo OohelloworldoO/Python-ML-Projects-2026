@@ -138,7 +138,7 @@ x_{3}
 $
 
 $
-r = b + wx
+r = b + Wx
 $
 
 
@@ -199,13 +199,12 @@ Machine Learning tasks include:
 
 **_Model:_**
 
-```
-y=b+wx
-```
+
+$$y=b+wx$$
 
 ## Step 2. Define Loss from Training data
 
-Loss is afunction of parameters e.g. L(b,w)  
+Loss is a function of parameters e.g. $L(b,w)$  
  Loss: $L=\frac{1}{N}( Σ(e) ) e$ 為每筆資料的預設跟實際的誤差，N 為總資料數  
  Loss 越大代表參數越差  
  計算誤差的方式:  
@@ -215,7 +214,7 @@ Loss is afunction of parameters e.g. L(b,w)
 
 ## Step 3. Optimization
 
-Grandient Descent  
+Gradient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
 - (Randomly) Pick an initial value "w1"
