@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains my learning journey in machine learning,
+This repository contains my learning journey in machine learning, Deep Learning,
 including course implementations, experiments, and future projects.
 
 Focus:
@@ -16,7 +16,7 @@ Focus:
 │  
 ├── README.md  
 │  
-├── 1.[Machine Learning Overview/](./Note/note.md)  
+├── 1.[Machine Learning Overview/](./Note/Machine%20Learning%20Overview.md)  
 │ ├── [Loss_Function.md](./Note/Loss_Function.md)  
 │ ├── [Optimization.md](./Note/Optimization.md)  
 │ ├── [Activation_Function.md](./Note/Activation_Function.md)  
@@ -65,7 +65,7 @@ Focus:
 
 ## Machine Learning Project
 
-|                    |                                                                Topic                                                                 |                      platform                       |
+|                    |                                                                Topic                                                                 |                        Link                         |
 | :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
 |     Regression     |               [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/HW1/COVID-19%20Cases%20Prediction.ipynb>)               | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw1) |
 |   Classification   | [TIMIT framewise phoneme classification](<./Machine%20Learning(ML)/Homework/HW2/TIMIT%20framewise%20phoneme%20classification.ipynb>) | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw2) |
