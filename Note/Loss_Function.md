@@ -19,8 +19,10 @@ $$
 L = \frac{1}{n}\sum_{i=1}^{n} e_i
 $$
 
-![](<./images/Loss function_2.png>)
-![loss function](<./images/Define Loss.png>)
+- $e$ 為每筆資料的預設跟實際的誤差，n 為總資料數
+
+  ![](<./images/Loss function_2.png>)
+  ![loss function](<./images/Define Loss.png>)
 
 $e$有兩種方法:
 

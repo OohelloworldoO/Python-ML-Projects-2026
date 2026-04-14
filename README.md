@@ -17,9 +17,9 @@ Focus:
 ├── README.md  
 │  
 ├── 1\_[Core_Concepts/](./Note/note.md)  
-│ ├── Loss_Function.md  
-│ ├── Optimization.md  
-│ ├── Activation_Function.md  
+│ ├── [Loss_Function.md](./Note/Loss_Function.md)  
+│ ├── [Optimization.md](./Note/Optimization.md)  
+│ ├── [Activation_Function.md](./Note/Activation_Function.md)  
 │  
 ├── 2_Modeling/  
 │ ├── Linear_Model.md  

@@ -52,7 +52,7 @@ $$
 \theta^1 = \theta^0 - \eta g
 $$
 
-### Optimization of New Model
+## Optimization of New Model
 
 (Randomly) Pick initial values $\theta^0$
 
