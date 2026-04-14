@@ -16,7 +16,7 @@ label 在 machine learning 中代表正確答案。
 Loss is defined as:
 
 $$
-L = \frac{1}{N}\sum_{n=1}^{n} e_i
+L = \frac{1}{N}\sum_{i=1}^{n} e_i
 $$
 
 ![](<./images/Loss function_2.png>)
@@ -32,7 +32,7 @@ $$
 
 缺點:
 
-- 當兩筆資料的誤差為一正一負，相加為零再取絕對值，此時會出現 `loss = 0` 的問題
+- 當兩筆資料的誤差相同，相減為零再取絕對值，此時會出現 `loss = 0` 的問題 (e.g $y=100，\hat{y}=100$)
 - optimization比較難
 
 ### **平方誤差MSE(Mean square error)**
@@ -66,7 +66,7 @@ are both probability distributions => **Cross-entropy**
 
 # Optimization
 
-Grandient Descent  
+Gradient Descent  
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
@@ -136,7 +136,7 @@ x_{3}
 $
 
 $
-r = b + w +x
+r = b + wx
 $
 
 
@@ -188,8 +188,10 @@ Features:
 
 # Machine Learning steps
 
-ML = Regression + Classification + Structured  
-Learning(create something with structure)
+Machine Learning tasks include:
+- Regression
+- Classification
+- Structured prediction (optional)
 
 ## Step 1. Function with unknown
 
@@ -226,3 +228,9 @@ Grandient Descent
 cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差範圍  
 corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高  
 [何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
+
+| Loss          | 特點                     | 適用             |
+| ------------- | ---------------------- | -------------- |
+| MAE           | robust to outliers     | regression     |
+| MSE           | penalizes large errors | regression     |
+| Cross-entropy | probability comparison | classification |
