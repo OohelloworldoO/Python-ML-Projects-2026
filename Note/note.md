@@ -34,6 +34,8 @@ $$
 
 - 當兩筆資料的誤差相同，相減為零再取絕對值，此時會出現 `loss = 0` 的問題 (e.g $y=100，\hat{y}=100$)
 - optimization比較難
+- 在誤差為 0 附近不可微（non-differentiable）
+- 對 outlier 不敏感（不像 MSE 會放大誤差）
 
 ### **平方誤差MSE(Mean square error)**
 
