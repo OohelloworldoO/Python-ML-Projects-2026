@@ -4,7 +4,7 @@ How good a set of values is. The smaller, the better.
 
 Define:
 
-$L(b, w)$
+$$L(b, w)$$
 
 $y_{i} = b + wx_i$
 
@@ -13,7 +13,7 @@ $y_{i} = b + wx_i$
 
 label 在 machine learning 中代表正確答案。
 
-Loss is defined as:
+_Loss is defined as:_
 
 $$
 L = \frac{1}{n}\sum_{i=1}^{n} e_i
@@ -22,7 +22,7 @@ $$
 ![](<./images/Loss function_2.png>)
 ![loss function](<./images/Define Loss.png>)
 
-e有兩種方法:
+$e$有兩種方法:
 
 ### **均方誤差MAE(Mean absolute error)**
 
@@ -68,7 +68,8 @@ are both probability distributions => **Cross-entropy**
 
 # Optimization
 
-Gradient Descent  
+_Gradient Descent_
+
  ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
 會有 local minimum, global minimum 的問題假議題 之後再更新為何為假議題  
 partial的定義:  
@@ -77,6 +78,35 @@ $$\frac{\partial f}{\partial w}|_{w = w^0, b = b^0}$$
 
 對 $b$ partial  
 $$\frac{\partial f}{\partial b}|_{w = w^0, b = b^0}$$
+
+$$
+Gradient = \begin{bmatrix}
+\frac{\partial L}{\partial \theta_1}\\
+\frac{\partial L}{\partial \theta_2}\\
+\frac{\partial L}{\partial \theta_3}\\
+\frac{\partial L}{\partial \theta_4}\\
+.\\
+.\\
+.
+\end{bmatrix}
+$$
+
+$$
+\theta = \begin{bmatrix}
+\theta_1|_{\theta = \theta_0}\\
+\theta_2|_{\theta = \theta_0}\\
+\theta_3|_{\theta = \theta_0}\\
+\theta_4|_{\theta = \theta_0}\\
+.\\
+.\\
+.
+\end{bmatrix}
+$$
+
+$$
+Gradient = \nabla L(\theta^0)
+$$
+
 ## Piecewise Linear Curves
 
 

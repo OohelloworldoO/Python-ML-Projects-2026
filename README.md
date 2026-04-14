@@ -14,11 +14,10 @@ Focus:
 ## 進度
 
 |   日期    | 進度                                                          |
-| :-------: | :------------------------------------------------------------ |
+| :-------: | :------------------------------------------------------------: |
 | 2026/4/5  | Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent) |
 | 2026/4/13 | activation function(Sigmoid)、machine learning steps          |
-|2026/4/14|sigmoid、
-|
+|2026/4/14|sigmoid、optimization(gradient descent)                          |
 
 ## Reference
 
