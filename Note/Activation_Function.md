@@ -9,21 +9,25 @@
 
 - Applies linear transformation + activation
 - $$a = \sigma(w^T x + b)$$
+- A layer consists of multiple neurons
 
 ## Level 3 — Neural Network
 
 - Combination of multiple neurons
 - $$y = b + \sum_i c_i \, \sigma(w_i^T x + b_i)$$
+- Neural Network 由多層的 hidden layer 組合而成，又稱為Deep Learning
 
 ## Level 4 — Function Approximation
 
 - Neural networks can approximate complex functions
 - With sufficient neurons, can approximate any continuous function
 
+![Neural Network](<./images/Neuron-Neural Network.png>)
+
 # Activation Function
 
 Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成，而 $\sigma(x)$ 代表一個 function ， 是 activation function 的抽象符號，對 x 套用 activation function  
-它可以是 `sigmoid function` 、 `ReLU` 、 `tanh` 、 `GELU` ...
+它可以是 `sigmoid function` 、 `ReLU` 、 `tanh` 、 `GELU` ... 最常直接拿來代表 $Sigmoid$
 
 ![式子](./images/式子.png)
 
@@ -38,7 +42,7 @@ activation function 會提供 NN 模型非線性的特性
 
 ## Piecewise Linear Curves
 
-_Piecewise linear curves = constant + sum set of activation functions_
+_Piecewise linear curves = constant + sum set of ReLu activation functions_
 
 ![Linear Curves](<./images/Linear Curves.png>)
 
@@ -124,11 +128,11 @@ $$
 在Neural Network 中，足夠多的 ReLU units 可以逼近任意函數，包含 sigmoid:
 
 $$
-ReLU = b + \sum_{2i} c_{i} max(0, b_{i}+ \sum_{j} w_{ij}x_{j})
+y = b + \sum_{i} c_{i} ReLU(b_{i}+ \sum_{j} w_{ij}x_{j})
 $$
 
 $$
-Sigmoid = b + \sum_{i} c_{i} Sigmoid(b_{i}+\sum w_{ij}x_{j})
+y = b + \sum_{i} c_{i} \sigma(b_{i}+\sum w_{ij}x_{j})
 $$
 
 Features:
@@ -162,3 +166,4 @@ Features:
 
 - Neural network 本質是透過 activation function 組合逼近複雜函數
 - $\sigma$ 代表 activation function ， 它是對線性輸出 $(b + Wx)$ 進行一個非線性變換的結果
+- Deep Learning = Many hidden layers =
