@@ -1,3 +1,4 @@
+import os
 import random
 import string
 import time
@@ -18,6 +19,28 @@ def generate_random_email():
 
 def generate_taiwan_phone():
     return "09" + "".join(random.choices(string.digits, k=8))
+
+
+# === 透過 ProtonVPN CLI 切換 IP ===
+def rotate_vpn_ip():
+    print("\n🌐 [IP 切換機制] 正在控制 ProtonVPN 切換節點...")
+    try:
+        # 1. 斷開目前的 VPN 連線
+        print("斷開當前 VPN...")
+        os.system("protonvpn-cli disconnect")
+        time.sleep(2)
+        
+        # 2. 隨機連線到目前最快的免費伺服器 (通常在美國、荷蘭或日本之間切換)
+        print("重新連線至最快的免費伺服器...")
+        os.system("protonvpn-cli connect --fastest")
+        
+        # 3. 等待安全隧道建立與 IP 分配
+        print("⏳ [IP 切換機制] 等待網路虛擬通道建立（約 8 秒）...")
+        time.sleep(8) 
+        print("✅ [IP 切換機制] VPN 已重新連線，順利取得新國家/地區 IP。")
+    except Exception as e:
+        print(f"⚠️ ProtonVPN 指令執行失敗，請確認是否已安裝 CLI 工具並加入環境變數: {e}")
+
 
 # 核心自動化流程
 def run_automation():
@@ -98,24 +121,32 @@ def run_automation():
         print(f"\n❌ 當次執行發生錯誤: {e}")
 
     finally:
-        # 確保每次流程結束（不論成功或失敗）都會關閉瀏覽器，避免留下大量背景程序
+        # 關閉瀏覽器，準備下一次更換全新網路環境
         driver.quit()
+
 
 # --- 主程式循環控制 ---
 if __name__ == "__main__":
     count = 1
-    print("====== 自動化腳本已啟動（欲結束請在終端機按下 Ctrl + C） ======")
+    print("====== ProtonVPN 動態變更 IP 循環腳本已啟動 ======")
+    print("====== （欲結束請在終端機按下 Ctrl + C） ======\n")
     
     try:
         while True:
+            # 1. 每次迴圈開頭先切換 VPN 節點以更換外部公網 IP
+            rotate_vpn_ip()
+            
+            # 2. 執行網頁自動化填表
             print(f"\n▶ 正在執行第 {count} 次流程...")
             run_automation()
             
-            print(f"第 {count} 次執行完畢。等待 60 秒後進行下一次循環...")
-            # 倒數計時提示（可選，方便確認程式有在運作）
-            for i in range(60, 0, -5):
+            # 3. 執行完畢後的模擬人類隨機冷卻等待
+            delay_time = random.randint(25, 45)
+            print(f"第 {count} 次執行完畢。隨機延遲 {delay_time} 秒後進行下一次循環...")
+            
+            for i in range(delay_time, 0, -5):
                 print(f"倒數 {i} 秒...")
-                time.sleep(5)
+                time.sleep(min(5, i))
                 
             count += 1
             
