@@ -1,4 +1,3 @@
-## pip install undetected-chromedriver
 import os
 import random
 import string
