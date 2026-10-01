@@ -42,6 +42,8 @@ Insights
 | 2026/4/5  |                                  Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent)                                  |
 | 2026/4/13 |                                      activation function(Sigmoid)、machine learning steps                                       |
 | 2026/4/14 | 搞清楚activation functions(Sigmoid、ReLU、tanh)跟NN、Deep Learning之間的關係以及數學定義、optimization、Logistic_Regression實作 |
+| 2026/10/2 |                                                                                                                                 |
+|           |                                                                                                                                 |
 
 ## Reference
 
@@ -64,6 +66,8 @@ Insights
 | 5. kaggle                         |                           |
 | 6. BERT                           |                           |
 | 7. LMMs                           |                           |
+| 8. NFU ML HW                      |        2026/10/1 -        |
+| 9.side project                    |                           |
 
 ## Machine Learning Project
 
