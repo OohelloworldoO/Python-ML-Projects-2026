@@ -112,6 +112,28 @@ Insights
 
 ## NFU HW
 
+### Machine Learning
+
+|       Topic        |                                   Link                                    | Link |
+| :----------------: | :-----------------------------------------------------------------------: | ---- |
+| Linear Regression  | [Linear regression](<./Machine%20Learning(ML)/Homework/Regression.ipynb>) | Link |
+|   Classification   |        [2](<./Machine%20Learning(ML)/Homework/Classification.py>)         | Link |
+|        CNN         |          [3](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|   Self-Attention   |          [4](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|    Transformer     |          [5](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|        GAN         |          [6](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|        BERT        |          [7](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+| Anomaly Detection  |          [8](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|   Explainable AI   |          [9](<./Machine%20Learning(ML)/Homework/Regression.py>)           | Link |
+|       Attack       |          [10](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+|     Adaptation     |          [11](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+|         RL         |          [12](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+|    Compression     |          [13](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+| Life-Long Learning |          [14](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+|   Meta Learning    |          [15](<./Machine%20Learning(ML)/Homework/Regression.py>)          | Link |
+
+### Advance Artificial Intelligence
+
 |       Topic        |                                   Link                                    | Link |
 | :----------------: | :-----------------------------------------------------------------------: | ---- |
 | Linear Regression  | [Linear regression](<./Machine%20Learning(ML)/Homework/Regression.ipynb>) | Link |
