@@ -37,13 +37,14 @@ Insights
 
 ## 進度
 
-|   日期    |                                                              進度                                                               |
-| :-------: | :-----------------------------------------------------------------------------------------------------------------------------: |
-| 2026/4/5  |                                  Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent)                                  |
-| 2026/4/13 |                                      activation function(Sigmoid)、machine learning steps                                       |
-| 2026/4/14 | 搞清楚activation functions(Sigmoid、ReLU、tanh)跟NN、Deep Learning之間的關係以及數學定義、optimization、Logistic_Regression實作 |
-| 2026/10/2 |                                                                                                                                 |
-|           |                                                                                                                                 |
+|    日期    |                                                              進度                                                               |
+| :--------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+|  2026/4/5  |                                  Loss Function(MAE、MSE、RMSE)、Optimization(gradient descent)                                  |
+| 2026/4/13  |                                      activation function(Sigmoid)、machine learning steps                                       |
+| 2026/4/14  | 搞清楚activation functions(Sigmoid、ReLU、tanh)跟NN、Deep Learning之間的關係以及數學定義、optimization、Logistic_Regression實作 |
+| 2026/10/4  |                                           RAG、Instruct RAG、IDEAL-RAG implementation                                           |
+| 2026/10/13 |                                                          BM25、TF-IDF                                                           |
+|            |                                                                                                                                 |
 
 ## Reference
 
@@ -65,7 +66,7 @@ Insights
 | 4. 生成式AI時代下的機器學習(2025) |                           |
 | 5. kaggle                         |                           |
 | 6. BERT                           |                           |
-| 7. LMMs                           |                           |
+| 7. LMMs                           |        2026/9/12-         |
 | 8. NFU ML HW                      |        2026/10/1 -        |
 | 9.side project                    |                           |
 
