@@ -2,6 +2,9 @@
 
 MCP 有無使用 LLM 的差異:  
 ![MCP LLM](./images/MCP_with_without%20LLM.png)
+
+## Flowchart
+
 MCP 採用 client-server 架構
 ![MCP host](./images/MCP%20host.png)
 
