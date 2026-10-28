@@ -3,7 +3,7 @@
 MCP 有無使用 LLM 的差異:  
 ![MCP LLM](./images/MCP_with_without%20LLM.png)
 
-## Flowchart
+## Architecture & Flowchart
 
 MCP 採用 client-server 架構
 ![MCP host](./images/MCP%20host.png)
@@ -33,7 +33,9 @@ flowchart TD
 | FastMCP  | Server 使用的框架                | 處理工具註冊與 MCP 通訊                        |
 | 外部服務 | Line Messaging API               | 真正向Line User 發送訊息                       |
 
-# reference
+![運作方式](./images/運作方式.png)
+
+## reference
 
 | Name                                                                                                                                                          | Author      |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------- |
