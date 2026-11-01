@@ -3,12 +3,12 @@
 MCP 有無使用 LLM 的差異:  
 ![MCP LLM](./images/MCP_with_without%20LLM.png)
 
+如果想要在 Line 的開源程式庫 Armeria 搜尋特定 code，然後寫 prompt 給 LLM 應用程式，這個 LLM 就會根據訓練資料回應，而不會真的去 Github 查 Armeria 程式庫。就可能導致 _Ai Hallucination_。
+
 ## Architecture & Flowchart
 
 MCP 採用 client-server 架構
 ![MCP host](./images/MCP%20host.png)
-
-如果想要在 Line 的開源程式庫 Armeria 搜尋特定 code，然後寫 prompt 給 LLM 應用程式，這個 LLM 就會根據訓練資料回應，而不會真的去 Github 查 Armeria 程式庫。就可能導致 _Ai Hallucination_。
 
 但如果用 GitHub MCP， LLM 應用程式會實際去 GitHub 查 Armeria repo 裡的程式碼。
 要做到這件事情就必須要有 MCP server， LLM 還要能呼叫這個 MCP。
