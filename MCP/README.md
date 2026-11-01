@@ -86,3 +86,4 @@ Host → MCP Client → LINE MCP Server → LINE API
 | Name                                                                                                                                                          | Author      |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------- |
 | [MCP 介紹：用 LINE Messaging API 打造 MCP 伺服器](https://techblog.lycorp.co.jp/zh-hant/introduction-to-mcp-and-building-mcp-server-using-line-messaging-api) | Changgu Han |
+| [What is MCP](https://www.youtube.com/watch?v=7j1t3UZA1TY)                                                                                                    |
